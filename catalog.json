@@ -1,0 +1,337 @@
+[
+	{
+	  "id": 1,
+	  "url": "https://www.podrygka.ru/upload/iblock/d0f/d0f4fbc5d6f1bb1ed6addc9171be88e5.jpg",
+	  "title": "КРЕМ ДЛЯ РУК БАРХАТНЫЕ РУЧКИ ПИТАТЕЛЬНЫЙ",
+	  "sizeType": "weight",
+	  "size": 90,
+	  "barcode": 4604049097548,
+	  "producer": "Россия",
+	  "brand": "БАРХАТНЫЕ РУЧКИ",
+	  "description": "Насыщенный питательный крем устраняет сухость кожи и делает ее заметно мягче. Интенсивно разглаживая кожу, придает рукам ухоженный вид",
+	  "price": 99,
+	  "categories": [
+		"руки",
+		"тело"
+	  ]
+	},
+
+	{
+		"id": 2,
+		"url": "https://www.podrygka.ru/upload/iblock/9a9/9a97d598a2265f4965e8fe7d248b0829.jpg",
+		"title": "ГЕЛЬ ДЛЯ ДУША `DICORA URBAN FIT` МОЛОКО И ДЫНЯ",
+		"sizeType": "volume",
+		"size": 400,
+		"barcode": 4604049097549,
+		"producer": "ИСПАНИЯ",
+		"brand": "Dicora urban fit",
+		"description": "Гель для душа, обогащённый молочными протеинами, глубоко увлажняет и мгновенно смягчает Вашу кожу.",
+		"price": 199,
+		"categories": [
+		  "тело"
+		]
+	  },
+
+	  {
+		"id": 3,
+		"url": "https://www.podrygka.ru/upload/iblock/88a/88ae8e182dee4d94868f2144d91ef47b.png",
+		"title": "ПИЛИНГ ДЛЯ НОГ `A`PIEU` SOFT FOOT ОТШЕЛУШИВАЮЩИЙ С АНА И ВHA-КИСЛОТАМИ",
+		"sizeType": "volume",
+		"size": 40,
+		"barcode": 4604049097550,
+		"producer": "РЕСПУБЛИКА КОРЕЯ",
+		"brand": "A`PIEU",
+		"description": "Благодаря входящим в состав кислотам, таким как молочная, гликолевая, салициловая, а также многочисленным фруктовым экстрактам, пилинг для ног помогает удалить ороговевшие клетки кожи ступней, обновляя ее и делая нежной и гладкой.",
+		"price": 349,
+		"categories": [
+		  "ноги"
+		]
+	  },
+
+	  {
+		"id": 4,
+		"url": "https://www.podrygka.ru/upload/iblock/5a1/5a1fa870615ebc4e872175233252be1b.jpg",
+		"title": "КРЕМ ДЛЯ НОГ `CAFE MIMI` SUPER FOOD КАКАО & ЖОЖОБА (СМЯГЧАЮЩИЙ)",
+		"sizeType": "volume",
+		"size": 50,
+		"barcode": 4604049097551,
+		"producer": "РОССИЯ",
+		"brand": "CAFE MIMI",
+		"description": "Крем для ног на основе масла Ши,Какао и Жожоба глубоко питает и восстанавливает сухую кожу стоп, увлажняет и смягчает кожу, делая пяточки гладкими и нежными.",
+		"price": 50,
+		"categories": [
+		  "ноги",
+		  "тело"
+		]
+	  },
+
+	  {
+		"id": 5,
+		"url": "https://www.podrygka.ru/upload/iblock/238/2385f84a0bfc9e227c6be867c280258e.jpg",
+		"title": "ПИЛИНГ-ГЕЛЬ ДЛЯ ЛИЦА `A`PIEU` СКАТКА С ЭКСТРАКТОМ ЯБЛОКА И АНА-КИСЛОТАМИ",
+		"sizeType": "volume",
+		"size": 100,
+		"barcode": 4604049097552,
+		"producer": "ЕСПУБЛИКА КОРЕЯ",
+		"brand": "A`PIEU",
+		"description": "Пилинг-гель с экстрактом яблока и фруктовыми кислотами помогает бороться с преждевременным старением кожи, ускоряет отшелушивание рогового слоя и обновление эпидермиса. При систематическом применении стимулируются процессы обновления клеток, кожа приобретает сияющий ровный цвет, осветляются пигментные пятна.",
+		"price": 449,
+		"categories": [
+		  "лицо"
+		]
+	  },
+
+	  {
+		"id": 6,
+		"url": "",
+		"title": "СЫВОРОТКА ДЛЯ ЛИЦА `ESFOLIO` С ГИАЛУРОНОВОЙ КИСЛОТОЙ (УВЛАЖНЯЮЩАЯ)",
+		"sizeType": "volume",
+		"size": 30,
+		"barcode": 4604049097553,
+		"producer": "РЕСПУБЛИКА КОРЕЯ",
+		"brand": "ESFOLIO",
+		"description": "Сыворотка для лица с натуральными экстрактами создана для бережного ухода за чувствительной и сухой кожей лица.",
+		"price": 849,
+		"categories": [
+		  "лицо"
+		]
+	  },
+
+	  {
+		"id": 7,
+		"url": "https://www.podrygka.ru/upload/iblock/b6c/b6c005192585c5be9ea865c739f13e91.png",
+		"title": "МАСКА ДЛЯ ВОЛОС `KHARISMA VOLTAGE` ИНТЕНСИВНАЯ УВЛАЖНЯЮЩАЯ",
+		"sizeType": "volume",
+		"size": 500,
+		"barcode": 4604049097554,
+		"producer": "КИТАЙ",
+		"brand": "KHARISMA VOLTAGE",
+		"description": "Интенсивно увлажняет, питает и восстанавливает структуру волос до самых кончиков",
+		"price": 629,
+		"categories": [
+		  "волосы"
+		]
+	  },
+
+	  {
+		"id": 8,
+		"url": "https://www.podrygka.ru/upload/iblock/9bd/9bd4fe3cd2f2ff952847023c8cebf4d7.jpg",
+		"title": "КОНДИЦИОНЕР ДЛЯ ВОЛОС `DAENG GI MEO RI` HONEY C ПЧЕЛИНЫМ МАТОЧНЫМ МОЛОЧКОМ",
+		"sizeType": "volume",
+		"size": 500,
+		"barcode": 4604049097555,
+		"producer": "РЕСПУБЛИКА КОРЕЯ",
+		"brand": "DAENG GI MEO RI",
+		"description": "Кондиционер подготавливает волосы к дальнейшей сушке феном или укладке.",
+		"price": 750,
+		"categories": [
+		  "волосы"
+		]
+	  },
+
+	  {
+		"id": 9,
+		"url": "https://www.podrygka.ru/upload/iblock/4e5/4e5f6e0d3736b7138f9a1897dc69e6d2.jpg",
+		"title": "ШАМПУНЬ ДЛЯ ВОЛОС `JOANNA` KERATIN С КЕРАТИНОМ",
+		"sizeType": "volume",
+		"size": 500,
+		"barcode": 4604049097556,
+		"producer": "ПОЛЬША",
+		"brand": "JOANNA",
+		"description": "Рекомендуем для ухода за волосами ослабленными, ломкими и жёсткими, а так же тяжело расчесываемыми.",
+		"price": 269,
+		"categories": [
+		  "волосы"
+		]
+	  },
+
+	  {
+		"id": 10,
+		"url": "https://www.podrygka.ru/upload/iblock/368/368c156798dc61a9150930bc27aa770b.jpg",
+		"title": "ГЕЛЬ ДЛЯ ЛИЦА И ТЕЛА `SUN LOOK` УСПОКАИВАЮЩИЙ С АЛОЭ ПОСЛЕ ЗАГАРА",
+		"sizeType": "weight",
+		"size": 150,
+		"barcode": 4604049097557,
+		"producer": "РЕСПУБЛИКА КОРЕЯ",
+		"brand": "SUN LOOK",
+		"description": "Мягкая формула геля содержит органический экстракт (98%) алоэ для увлажнения и смягчения различных участков кожи, таких как лицо, руки, ноги",
+		"price": 519,
+		"categories": [
+		  "тело",
+		  "загар",
+		  "лицо",
+		  "руки",
+		  "ноги"
+		]
+	  },
+
+	  {
+		"id": 11,
+		"url": "https://www.podrygka.ru/upload/iblock/2ed/2edf1b66a1bd57701f3d2123213957c8.jpg",
+		"title": "ЭМУЛЬСИЯ ДЛЯ ТЕЛА `SUN LOOK` СОЛНЦЕЗАЩИТНАЯ ВОДОСТОЙКАЯ SPF-50",
+		"sizeType": "volume",
+		"size": 150,
+		"barcode": 4604049097558,
+		"producer": "РЕСПУБЛИКА КОРЕЯ",
+		"brand": "SUN LOOK",
+		"description": "Идеальное средство защиты для сверхчувствительной к солнцу кожи, с повышенной склонностью к раздражению.",
+		"price": 519,
+		"categories": [
+			"тело",
+			"загар",
+			"руки",
+			"ноги"
+		]
+	  },
+
+	  {
+		"id": 12,
+		"url": "https://www.podrygka.ru/upload/iblock/561/561a47849030ee14a8cbe2375a583222.jpg",
+		"title": "ГЕЛЬ ДЛЯ ЛИЦА `SUN LOOK` 3 В 1 СОЛНЦЕЗАЩИТНЫЙ",
+		"sizeType": "volume",
+		"size": 50,
+		"barcode": 4604049097559,
+		"producer": "РЕСПУБЛИКА КОРЕЯ",
+		"brand": "SUN LOOK",
+		"description": "Гель идеально подойдет для тех, кто ищет уход и защиту от солнца в одном средстве.",
+		"price": 749,
+		"categories": [
+			"загар",
+			"лицо"
+		]
+	  },
+
+	  {
+		"id": 13,
+		"url": "https://www.podrygka.ru/upload/iblock/ee1/ee1d0f180e292176dad4e129a93e645d.jpg",
+		"title": "ГЕЛЬ ДЛЯ БРИТЬЯ `LOREAL` `MEN EXPERT` ДЛЯ ЧУВСТВИТЕЛЬНОЙ КОЖИ",
+		"sizeType": "volume",
+		"size": 200,
+		"barcode": 4604049097560,
+		"producer": "БЕЛЬГИЯ",
+		"brand": "LOREAL",
+		"description": "Не содержит спирта. Протестирован под дерматологическим контролем.",
+		"price": 569,
+		"categories": [
+		  "лицо",
+		  "бритье"
+		]
+	  },
+
+	  {
+		"id": 14,
+		"url": "https://www.podrygka.ru/upload/iblock/910/9108c2df4802c70498a2a8f79a3885c9.jpg",
+		"title": "ПЕНА ДЛЯ БРИТЬЯ `VOX` FOR MEN МЕНТОЛ",
+		"sizeType": "volume",
+		"size": 50,
+		"barcode": 4604049097561,
+		"producer": "ТУРЦИЯ",
+		"brand": "VOX",
+		"description": "Гипоаллергенная формула пены разработана специально для чувствительной кожи мужчин.",
+		"price": 199,
+		"categories": [
+			"лицо",
+			"бритье"
+		]
+	  },
+
+	  {
+		"id": 15,
+		"url": "https://www.podrygka.ru/upload/iblock/6cf/6cfdb55a9db27b9cdc10dd733743e016.jpg",
+		"title": "НАБОР ПОДАРОЧНЫЙ ЖЕНСКИЙ `ORGANIC SHOP` YOU ARE PERFECT (ГОММАЖ ДЛЯ ЛИЦА 100 МЛ, МАСКА ДЛЯ ЛИЦА 100 МЛ)",
+		"sizeType": "weight",
+		"size": 241,
+		"barcode": 4604049097562,
+		"producer": "РОССИЯ",
+		"brand": "ORGANIC SHOP",
+		"description": "Обновляющий био гоммаж и питательная био маска совершенствуют вашу кожу, чтобы вы всегда были ослепительно прекрасны!",
+		"price": 249,
+		"categories": [
+		  "подарочные наборы",
+		  "лицо"
+		]
+	  },
+
+	  {
+		"id": 16,
+		"url": "https://www.podrygka.ru/upload/iblock/5d0/5d03e96a3521679c3fe52bff341e4b32.jpg",
+		"title": "НАБОР ПОДАРОЧНЫЙ ЖЕНСКИЙ `БАРХАТНЫЕ РУЧКИ` С ТЕПЛОТОЙ ДЛЯ ТЕБЯ (КРЕМ ДЛЯ РУК ПИТАТЕЛЬНЫЙ 80МЛ, КРЕМ ДЛЯ РУК НОЧНОЙ ВОССТАНАВЛИВАЮЩИЙ 80МЛ)",
+		"sizeType": "weight",
+		"size": 204,
+		"barcode": 4604049097563,
+		"producer": "РОССИЯ",
+		"brand": "БАРХАТНЫЕ РУЧКИ",
+		"description": "Дарите полезные и нужные подарки, которые расскажут о вашей заботе и будут радовать качественными продуктами.",
+		"price": "",
+		"categories": [
+		  "руки",
+		  "подарочные наборы"
+		]
+	  },
+
+	  {
+		"id": 17,
+		"url": "https://www.podrygka.ru/upload/iblock/4ab/4aba13da18cfb6ebdae89d58f2267e57.jpg",
+		"title": "ГЕЛЬ ДЛЯ БРИТЬЯ `VOX` ALOE VERA",
+		"sizeType": "volume",
+		"size": 200,
+		"barcode": 4604049097564,
+		"producer": "",
+		"brand": "VOX",
+		"description": "Прикосновение шелка к Вашей коже - несравненно нежное влажное бритье с гелем от VOX. Побалуйте себя ароматом чувственного алоэ.",
+		"price": 249,
+		"categories": [
+		  "тело",
+		  "бритье"
+		]
+	  },
+
+	  {
+		"id": 18,
+		"url": "https://www.podrygka.ru/upload/iblock/845/84534398071ede41a9406d40b2aabd6c.png",
+		"title": "ГИДРОФИЛЬНОЕ МАСЛО ДЛЯ ЛИЦА `A`PIEU` `DEEP CLEAN`",
+		"sizeType": "volume",
+		"size": 160,
+		"barcode": 4604049097565,
+		"producer": "РЕСПУБЛИКА КОРЕЯ",
+		"brand": "A`PIEU",
+		"description": "Идеальное очищение для кожи склонной к жирности и кожи с расширенными порами и появлению закупорки пор.",
+		"price": 750,
+		"categories": [
+		  "лицо"
+		]
+	  },
+
+	  {
+		"id": 19,
+		"url": "https://www.podrygka.ru/upload/iblock/5b1/5b11f71282c8812e9ce39d4076e8f8c7.jpg",
+		"title": "КРАСКА ДЛЯ ВОЛОС `SYOSS` SALONPLEX ТОН 13-5 (ПЛАТИНОВЫЙ ОСВЕТЛИТЕЛЬ)",
+		"sizeType": "volume",
+		"size": 50,
+		"barcode": 4604049097566,
+		"producer": "РОССИЯ",
+		"brand": "SYOSS",
+		"description": "Осветлитель для волос Syoss Платиновый осветлитель 13-5 с блонд-активатором и системой против повреждений",
+		"price": 399,
+		"categories": [
+		  "волосы"
+		]
+	  },
+
+	  {
+		"id": 20,
+		"url": "https://www.podrygka.ru/upload/iblock/c8e/c8ee2199ce06d7bdb35d968d0fd3eed6.jpg",
+		"title": "НАБОР ПОДАРОЧНЫЙ ЖЕНСКИЙ `ORGANIC KITCHEN` HOT CHOCOLATE WITH MARSHMALLOW (ГЕЛЬ ДЛЯ ДУША 170 МЛ, МОЛОЧКО ДЛЯ ТЕЛА 170 МЛ)",
+		"sizeType": "weight",
+		"size": 415,
+		"barcode": 4604049097567,
+		"producer": "РОССИЯ",
+		"brand": "ORGANIC KITCHEN",
+		"description": "Сладкое наслаждение для вашей кожи!",
+		"price": 329,
+		"categories": [
+		  "подарочные наборы",
+		  "тело"
+		]
+	  }
+]
