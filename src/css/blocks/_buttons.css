@@ -1,0 +1,40 @@
+.btn {
+    padding: 21px 54px;
+    background: #FFC85E;
+    border-radius: 79px;
+    border: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    height: 59px;
+    cursor: pointer;
+}
+
+.btn.btn__catalog {
+    margin-left: 38px;
+}
+
+.btn.btn__price {
+    padding: 21px 43px;
+}
+
+.btn__img {
+    padding-left: 12px;
+}
+
+.btn__img-buy {
+    padding-left: 0;
+}
+
+.btn__buy {
+    justify-content: space-between;
+    padding: 16px 25px;
+    width: 153px;
+    height: 45px;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.15em;
+}

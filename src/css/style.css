@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+
+}
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+
+.hr {
+    border-bottom: 1px solid #3F4E65;
+    opacity: 0.2;
+}
+@import 'blocks/_nav.css';
+@import 'blocks/_buttons.css';
+@import 'blocks/_inputs.css';
+@import 'blocks/_lines.css';
+@import 'blocks/_catalog.css';

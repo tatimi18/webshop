@@ -1,0 +1,15 @@
+.line {
+    height: 39px;
+    border-left: 1px dashed grey;
+    margin: 0 30px
+}
+
+.line.line__mini {
+    height: 29px;
+    margin: 0 20px
+}
+
+.line.line__second-nav {
+    height: 49px;
+    margin: 0 25px
+}

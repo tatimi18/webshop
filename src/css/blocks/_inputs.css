@@ -1,0 +1,16 @@
+.input {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #5C6370;
+    padding: 20px;
+    border-radius: 79px;
+    border: none;
+    width: 263px;
+    height: 59px;
+    background: #EDEDED url(../../icons/navbar/search.svg) no-repeat 213px 10px;
+}
+
+.input.input__nav {
+    margin-left: 15px;
+}
