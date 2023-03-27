@@ -1,0 +1,50 @@
+.filter__price-inputs {
+    width: 232px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #111111;
+}
+
+.filter__price-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    color: #3F4E65;
+}
+
+.price {
+    font-weight: 500;
+    color: #111111;
+}
+
+.filter__price-inputs {
+    margin-top: 16px;
+}
+
+.search__produser-title {
+    margin: 30px 0 15px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #111111;
+}
+
+.filterList{
+    padding-top: 15px;
+}
+.checkboxes {
+    display: flex;
+}
+.checkbox-name {
+    padding-left: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #3F4E65;
+}

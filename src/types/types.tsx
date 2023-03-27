@@ -8,7 +8,7 @@ export interface ICatalogItem {
     producer: string;
     brand: string;
     description: string;
-    price: number;
+    price: string;
     categories: any
 }
 

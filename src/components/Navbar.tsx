@@ -56,7 +56,7 @@ const Navbar: FC = () => {
 				<div className="second-line">
 					<img src={logo} alt="logo" />
 					<MyButton classNameImg='btn__img' classNameBtn={'btn btn__catalog'} text={'Каталог'} srcImg={catalog} alt={'catalog'}/>
-                    <MyInput className={'input input__nav'} placeholder={'Поиск...'}/>
+                    <MyInput type={'text'} className={'input input__nav'} placeholder={'Поиск...'}/>
 					<div className="nav__info">
 						<div className="nav__info__text">
 							<div className="tel">+7 (777) 490-00-91</div>
