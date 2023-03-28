@@ -45,13 +45,17 @@ interface ISelect {
 
 const MySelect: FC<ISelect> = ({options, defaultValue, value, onChange}) => {
   return (
-    <select
-        value={value}
-        onChange={(e) => onChange(e.target.value)}
-    >
-        <option disabled value="">{defaultValue}</option>
-        {options.map(option => <option key={option.name} value={option.value}>{option.name}</option>)}
-    </select>
+    <div className='select__wrapper'>
+      <div className="select__title">Сортировка:</div>
+      <select
+          value={value}
+          onChange={(e) => onChange(e.target.value)}
+          className={'select'}
+      >
+          <option className='select__option' disabled value="">{defaultValue}</option>
+          {options.map(option => <option className='select__option' key={option.name} value={option.value}>{option.name}</option>)}
+      </select>
+    </div>
   )
 }
 

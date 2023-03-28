@@ -1,5 +1,4 @@
 import React from 'react';
-import Sidebar from '../components/Sidebar';
 
 interface CatalogListProps<T> {
     items: T[];
@@ -13,7 +12,8 @@ export default function CatalogList<T>(props: CatalogListProps<T>) {
 
     <section className="catalog">
         <div className="catalog__wrapper">
-            <Sidebar/>
+            
+            
             {props.items.map(props.renderItem)}
         </div>
 	</section>

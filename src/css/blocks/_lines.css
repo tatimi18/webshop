@@ -13,3 +13,10 @@
     height: 49px;
     margin: 0 25px
 }
+
+.line__horizontal {
+    margin: 20px 0;
+    width: 238px;
+    border-bottom: 1px dashed grey;
+
+}

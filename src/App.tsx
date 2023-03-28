@@ -5,6 +5,7 @@ import catalog from './catalog_data/catalog.json';
 import CatalogList from './components/CatalogList';
 import CatalogItem from './components/CatalogItem';
 import MySelect from './components/UI/select/MySelect';
+import Sidebar from './components/Sidebar';
 
 
 
@@ -13,12 +14,12 @@ function App() {
 	const [catalogOrder, setCatalogOrder] = useState(catalog)
 
 
-	const sortCatalog = (sortType) => {
+	const sortCatalog = (sortType: string) => {
 		setSelectedSort(sortType);
 		getSortedCatalog(catalog, sortType)
 	}
 
-	const getSortedCatalog = (itemsToSort, nameSelect) => {
+	const getSortedCatalog = (itemsToSort, nameSelect: string) => {
 		const sortedCatalog = [...itemsToSort];
 		if (nameSelect.includes('title')) {
 			sortedCatalog.sort((a, b) => a.title.localeCompare(b.title))
@@ -33,26 +34,37 @@ function App() {
 	} 
 
 	return (
-		
+
 		<div>
 			<Navbar/>
-			
-			<MySelect 
-				value={selectedSort}
-				onChange={sortCatalog}
-				options={[
-					{value: 'title-UP', name: 'По названию по возрастанию', reverse: false},
-					{value: 'title-DOWN', name: 'По названию по убыванию', reverse: true}, 
-					{value: 'price-UP', name: 'По цене по возрастанию', reverse: false},
-					{value: 'price-DOWN', name: 'По цене по убыванию', reverse: true},
-				]}
-				defaultValue={'сортировать'}
-			/>
-			<CatalogList 
-				items={catalogOrder} 
-				onChange={setCatalogOrder}
-				renderItem={(item) => <CatalogItem key={item.id} item={item}/>}
-			/>
+
+			<div className="container">
+
+				<div className="flex__firstLine" style={{display: 'flex'}}>
+					<div className="catalog__title">Косметика и гигиена</div>
+
+					<MySelect 
+						value={selectedSort}
+						onChange={sortCatalog}
+						options={[
+							{value: 'title-UP', name: 'Название ↑', reverse: false},
+							{value: 'title-DOWN', name: 'Название ↓', reverse: true}, 
+							{value: 'price-UP', name: 'Цена ↑', reverse: false},
+							{value: 'price-DOWN', name: 'Цена ↓', reverse: true},
+						]}
+						defaultValue={'Выбрать'}
+					/>
+				</div>
+
+				<div className="flex">
+					<Sidebar/>
+					<CatalogList 
+						items={catalogOrder} 
+						onChange={setCatalogOrder}
+						renderItem={(item) => <CatalogItem key={item.id} item={item}/>}
+					/>
+				</div>
+			</div>
 		</div>
 	);
 }

@@ -38,3 +38,10 @@
     line-height: 12px;
     letter-spacing: 0.15em;
 }
+
+
+
+.btn__img-only {
+    padding: 12px 18px;
+    margin-left: 10px;
+}

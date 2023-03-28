@@ -1,6 +1,8 @@
 import React from 'react'
 import MyInput from './UI/input/MyInput';
 import catalog from '../catalog_data/catalog.json';
+import MyButton from './UI/button/MyButton';
+import deleteIcon from '../icons/navbar/delete.svg';
 
 const Sidebar = () => {
     const produsersSet = new Set();
@@ -31,6 +33,14 @@ const Sidebar = () => {
                 </div>
             </div>
 
+            <div className="line__horizontal"></div>
+
+            <div className="flex">
+                <MyButton classNameBtn={'btn'} text={'Показать'}/>
+                <MyButton classNameBtn={'btn btn__img-only'} text={''} srcImg={deleteIcon} alt={'delete'}/>
+
+
+            </div>
             <div>Кнопки по категориям</div>
 
 		</section>
