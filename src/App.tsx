@@ -6,13 +6,13 @@ import CatalogList from './components/CatalogList';
 import CatalogItem from './components/CatalogItem';
 import MySelect from './components/UI/select/MySelect';
 import Sidebar from './components/Sidebar';
+import CategoryNav from './components/CategoryNav';
 
 
 
 function App() {	
 	const [selectedSort, setSelectedSort] = useState('');
-	const [catalogOrder, setCatalogOrder] = useState(catalog)
-
+	const [catalogOrder, setCatalogOrder] = useState(catalog);
 
 	const sortCatalog = (sortType: string) => {
 		setSelectedSort(sortType);
@@ -33,6 +33,30 @@ function App() {
 		setCatalogOrder(sortedCatalog)
 	} 
 
+	function filterByCategory(category) {
+		/* category.target.classList.toggle('input__category__active')
+
+		if (category.target.className === 'input__category input__category__active') {
+			getFilteredCatalog(catalogOrder, category.target.value)
+		} else {
+			console.log('отменяем фильтр');
+			setCatalogOrder(catalog)
+		} */
+
+		category.target.className = 'input__category input__category__active';
+		getFilteredCatalog(catalogOrder, category.target.value)
+
+
+	}
+
+	function getFilteredCatalog(itemsToFilter, selectedFilter) {
+		let copy = [...itemsToFilter];
+		const words = selectedFilter.split(' ')
+	
+		let filteredCatalog = copy.filter(item => item.categories.join(',').includes(words[words.length - 1]))
+		setCatalogOrder(filteredCatalog)
+	}
+
 	return (
 
 		<div>
@@ -42,6 +66,7 @@ function App() {
 
 				<div className="flex__firstLine" style={{display: 'flex'}}>
 					<div className="catalog__title">Косметика и гигиена</div>
+
 
 					<MySelect 
 						value={selectedSort}
@@ -53,9 +78,15 @@ function App() {
 							{value: 'price-DOWN', name: 'Цена ↓', reverse: true},
 						]}
 						defaultValue={'Выбрать'}
-					/>
+						/>
 				</div>
 
+				<CategoryNav
+					onClick={filterByCategory}
+					className__input={'input__category'}
+					classNameUl={'ul__horizontal'}
+				/>
+				
 				<div className="flex">
 					<Sidebar/>
 					<CatalogList 
