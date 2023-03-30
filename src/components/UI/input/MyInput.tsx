@@ -1,14 +1,23 @@
 import React, {FC} from 'react';
 
 interface MyInputProps {
-  className: string;
-  placeholder: string;
-  type: string;
+	onChange?: any
+	name?: string;
+	value?: string | number;
+	className: string;
+	placeholder: string;
+	type: string;
 }
 
-const MyInput: FC<MyInputProps> = ({className, placeholder, type}) => {
+const MyInput: FC<MyInputProps> = ({className, placeholder, type, value, onChange}) => {
   return (
-    <input className={className} type={type} placeholder={placeholder} />
+    <input 
+		value={value} 
+		onChange={onChange}
+		className={className} 
+		type={type} 
+		placeholder={placeholder} 
+	/>
   )
 }
 

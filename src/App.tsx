@@ -11,12 +11,17 @@ import CategoryNav from './components/CategoryNav';
 
 
 function App() {	
+	let copyCatalog = [...catalog]
+
 	const [selectedSort, setSelectedSort] = useState('');
-	const [catalogOrder, setCatalogOrder] = useState(catalog);
+	const [catalogOrder, setCatalogOrder] = useState(copyCatalog);
+
+	const [priceStart, setPriceStart] = useState('')
+	const [priceEnd, setPriceEnd] = useState('')
 
 	const sortCatalog = (sortType: string) => {
 		setSelectedSort(sortType);
-		getSortedCatalog(catalog, sortType)
+		getSortedCatalog(copyCatalog, sortType)
 	}
 
 	const getSortedCatalog = (itemsToSort, nameSelect: string) => {
@@ -78,7 +83,7 @@ function App() {
 							{value: 'price-DOWN', name: 'Цена ↓', reverse: true},
 						]}
 						defaultValue={'Выбрать'}
-						/>
+					/>
 				</div>
 
 				<CategoryNav
@@ -88,7 +93,12 @@ function App() {
 				/>
 				
 				<div className="flex">
-					<Sidebar/>
+					<Sidebar
+						priceStart={priceStart}
+						priceEnd={priceEnd}
+						onChangePriceStart={e => setPriceStart(e.target.value)}
+						onChangePriceEnd={e => setPriceEnd(e.target.value)}
+					/>
 					<CatalogList 
 						items={catalogOrder} 
 						onChange={setCatalogOrder}

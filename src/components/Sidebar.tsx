@@ -4,7 +4,7 @@ import catalog from '../catalog_data/catalog.json';
 import MyButton from './UI/button/MyButton';
 import deleteIcon from '../icons/navbar/delete.svg';
 
-const Sidebar = () => {
+const Sidebar = ({priceStart, priceEnd, onChangePriceStart, onChangePriceEnd}) => {
     const produsersSet = new Set();
 	for (let item of catalog) {
 		produsersSet.add(item.producer)
@@ -17,9 +17,23 @@ const Sidebar = () => {
 			<div className="title">ПОДБОР ПО ПАРАМЕТРАМ</div>
             <div className="filter__price-text">Цена <span className='price'>₽</span></div>
             <div className="filter__price-inputs">
-                <MyInput placeholder={'0'} type={'number'} className={'input__price-filter'} />
+                <MyInput 
+                    value={priceStart}
+                    name="priceStart"
+                    onChange={onChangePriceStart}
+                    placeholder={'0'} 
+                    type={'text'} 
+                    className={'input__price-filter'} 
+                />
                     - 
-                <MyInput placeholder={'10 000'} type={'number'} className={'input__price-filter'} />
+                <MyInput 
+                    value={priceEnd}
+                    name="priceEnd"
+                    onChange={onChangePriceEnd}
+                    placeholder={'10 000'} 
+                    type={'text'} 
+                    className={'input__price-filter'} 
+                />
             </div>
             <div className="search__produser">
                 <div className="search__produser-title">Производитель</div>
